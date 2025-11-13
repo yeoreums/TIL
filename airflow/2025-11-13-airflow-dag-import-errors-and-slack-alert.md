@@ -8,7 +8,7 @@
 ## 🧩 Issue
 
 While setting up **Slack alerts** in my Airflow project (running on Docker inside Ubuntu WSL),  
-I created a test DAG called `test_slack_alert.py` to send a message to Slack when triggered.  
+I created a test DAG called `test_slack_alert_on_failure.py` to send a message to Slack when triggered.  
 
 Even though the file was correctly located in:
 /opt/airflow/dags/
@@ -19,7 +19,15 @@ I confirmed that the file existed inside the scheduler container:
 ```bash
 docker exec -it learn-airflow-airflow-scheduler-1 ls /opt/airflow/dags
 ```
+Also checked running dags on Airflow Web UI:
+
+<img width="1520" height="473" alt="Screenshot 2025-11-13 132637" src="https://github.com/user-attachments/assets/74583378-a6fa-4290-8966-bcc55479b4f8" />
+
+
 But still, nothing showed up on the UI. No parsing errors, no DAG import failure — it was just invisible.
+
+<img width="3795" height="1983" alt="Screenshot 2025-11-11 154640" src="https://github.com/user-attachments/assets/78a9726e-320c-465d-8fc5-193c4b8ec824" />
+
 ---
 ## 🔍 Root Cause
 
@@ -68,7 +76,7 @@ the plugin would not crash during import.
 
 ### 2️⃣ Create a Minimal Test DAG
 
-```dags/test_slack_alert.py```:
+```dags/test_slack_alert_on_failure.py```:
 ```python
 from airflow import DAG
 from airflow.operators.python import PythonOperator
@@ -158,5 +166,8 @@ docker exec -it learn-airflow-airflow-scheduler-1 ls /opt/airflow/dags
 ## 🚀 Result
 
 After cleaning up ```.airflowignore``` and resolving import issues,
-```test_slack_alert.py``` appeared properly in the Airflow Web UI,
+```test_slack_alert_on_failure.py``` appeared properly in the Airflow Web UI,
 and Slack notifications worked exactly as expected.
+
+<img width="3571" height="1692" alt="Screenshot 2025-11-12 211837" src="https://github.com/user-attachments/assets/3d828c76-950a-4910-8671-e048758bb7b5" />
+
