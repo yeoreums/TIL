@@ -19,10 +19,6 @@ I confirmed that the file existed inside the scheduler container:
 ```bash
 docker exec -it learn-airflow-airflow-scheduler-1 ls /opt/airflow/dags
 ```
-Also checked running dags on Airflow Web UI:
-
-<img width="1520" height="473" alt="Screenshot 2025-11-13 132637" src="https://github.com/user-attachments/assets/74583378-a6fa-4290-8966-bcc55479b4f8" />
-
 
 But still, nothing showed up on the UI. No parsing errors, no DAG import failure — it was just invisible.
 
@@ -171,3 +167,7 @@ and Slack notifications worked exactly as expected.
 
 <img width="3571" height="1692" alt="Screenshot 2025-11-12 211837" src="https://github.com/user-attachments/assets/3d828c76-950a-4910-8671-e048758bb7b5" />
 
+---
+Checking running dags on Airflow Web UI:
+
+<img width="1520" height="473" alt="Screenshot 2025-11-13 132637" src="https://github.com/user-attachments/assets/74583378-a6fa-4290-8966-bcc55479b4f8" />
