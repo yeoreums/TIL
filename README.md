@@ -3,16 +3,23 @@
 A collection of things I learn and fix every day while studying data engineering, Python, Linux, Airflow, and web development.
 
 This repo helps me track my progress, organize solutions to debugging issues, and document concepts in my own words.
-
+> Inspired by [@drecali](https://github.com/drecali)'s [TIL repo](https://github.com/drecali/til) and his advice to document even small learnings early on.
 ---
 
 ## 📂 Categories
+
+### Airflow
+- [Making Slack Notification DAG Visible in Airflow UI with .airflowignore](airflow/airflow-import-error-slack-alert.md)
 
 ### Data Engineering
 - [dbt Core Concepts & Setup Guide](data-engineering/dbt-core-concepts-and-setup.md)
 - [Stock Volatility Alert System with Snowflake & Slack](data-engineering/snowflake-slack-volatility-alerts.md)
 
+### DevOps and system
+- [Airflow/Docker/WSL Troubleshooting: Core Commands and Fixes](airflow-docker-wsl-troubleshooting.md)
+
 ### Git & GitHub
+- [Pushing Only a Single File Using git stash](selective-file-commit-with-stash.md)
 - [Rebase vs Merge Strategy](git-and-github/rebase-vs-merge-strategy.md)
 - [GitHub Team Workflow Guide](git-and-github/github-team-workflow-guide.md)
 
