@@ -19,6 +19,7 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 - [Airflow/Docker/WSL Troubleshooting: Core Commands and Fixes](airflow-docker-wsl-troubleshooting.md)
 
 ### Git & GitHub
+- [Ubuntu WSL Essential Commands Cheat Sheet](ubuntu-wsl-git-cheat-sheet.md.md)
 - [Pushing Only a Single File Using git stash](selective-file-commit-with-stash.md)
 - [Rebase vs Merge Strategy](git-and-github/rebase-vs-merge-strategy.md)
 - [GitHub Team Workflow Guide](git-and-github/github-team-workflow-guide.md)
