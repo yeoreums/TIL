@@ -12,6 +12,7 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 - [Making Slack Notification DAG Visible in Airflow UI with .airflowignore](airflow/airflow-import-error-slack-alert.md)
 
 ### Data Engineering
+- [deque sliding window for streaming](deque-sliding-window-for-streaming.md)
 - [dbt Core Concepts & Setup Guide](data-engineering/dbt-core-concepts-and-setup.md)
 - [Stock Volatility Alert System with Snowflake & Slack](data-engineering/snowflake-slack-volatility-alerts.md)
 
