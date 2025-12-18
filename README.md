@@ -10,6 +10,8 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 
 ### Airflow
 - [Making Slack Notification DAG Visible in Airflow UI with .airflowignore](airflow/airflow-import-error-slack-alert.md)
+- [Batch Candle Silver to Snowflake](batch-candle-to-silver-snowflake.md)
+- [Batch Trade Silver to Snowflake](batch-trade-to-silver-snowflake.md)
 
 ### Data Engineering
 - [deque sliding window for streaming](deque-sliding-window-for-streaming.md)
