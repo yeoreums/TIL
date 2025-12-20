@@ -9,6 +9,7 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 ## 📂 Categories
 
 ### Airflow
+- [Troubleshooting: Running dbt inside Airflow (Docker) on EC2](dbt-inside-airflow-click-importerror.md)
 - [Making Slack Notification DAG Visible in Airflow UI with .airflowignore](airflow/airflow-import-error-slack-alert.md)
 - [Batch Candle Silver to Snowflake](batch-candle-to-silver-snowflake.md)
 - [Batch Trade Silver to Snowflake](batch-trade-to-silver-snowflake.md)
