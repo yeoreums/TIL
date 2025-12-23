@@ -29,6 +29,9 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 - [Rebase vs Merge Strategy](git-and-github/rebase-vs-merge-strategy.md)
 - [GitHub Team Workflow Guide](git-and-github/github-team-workflow-guide.md)
 
+### Linux
+- [Linux Practical commands I used](linux-operations-and-debugging.md)
+
 ---
 
 ## 💡 About
