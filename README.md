@@ -19,6 +19,11 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 - [dbt Core Concepts & Setup Guide](data-engineering/dbt-core-concepts-and-setup.md)
 - [Stock Volatility Alert System with Snowflake & Slack](data-engineering/snowflake-slack-volatility-alerts.md)
 
+### dbt
+- [dbt Troubleshooting notes](dbt/dbt-troubleshooting-note.md)
+- [dbt Complication & schema issues and macro](dbt/dbt-compilation-and-schema-issues.md)
+- [dbt Core Concepts & Setup Guide](dbt/dbt-core-concepts-and-setup.md)
+
 ### DevOps and system
 - [Airflow/Docker/WSL Troubleshooting: Core Commands and Fixes](dev-ops-and-system/airflow-docker-wsl-troubleshooting.md)
 - [Deploying Airflow DAGs on EC2 (Docker)](dev-ops-and-system/2025-12-18-ec2-airflow-dag-deploy.md)
