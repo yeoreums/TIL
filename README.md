@@ -54,6 +54,8 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 
 Each entry documents a real issue resolved, concept clarified, or system behavior understood through hands-on experience.
 
+---
+
 ## 🧠 Patterns I’m Learning Repeatedly
 
 - Idempotent pipeline design
