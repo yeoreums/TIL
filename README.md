@@ -16,21 +16,20 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 
 ### Data Engineering
 - [deque sliding window for streaming](data-engineering/deque-sliding-window-for-streaming.md)
-- [dbt Core Concepts & Setup Guide](data-engineering/dbt-core-concepts-and-setup.md)
 - [Stock Volatility Alert System with Snowflake & Slack](data-engineering/snowflake-slack-volatility-alerts.md)
 
 ### dbt
 - [dbt Troubleshooting notes](dbt/dbt-troubleshooting-note.md)
-- [dbt Complication & schema issues and macro](dbt/dbt-compilation-and-schema-issues.md)
+- [dbt Compilation & schema issues and macro](dbt/dbt-compilation-and-schema-issues.md)
 - [dbt Core Concepts & Setup Guide](dbt/dbt-core-concepts-and-setup.md)
 
-### DevOps and system
+### DevOps & system
 - [Airflow/Docker/WSL Troubleshooting: Core Commands and Fixes](dev-ops-and-system/airflow-docker-wsl-troubleshooting.md)
 - [Deploying Airflow DAGs on EC2 (Docker)](dev-ops-and-system/2025-12-18-ec2-airflow-dag-deploy.md)
 
 ### Git & GitHub
 - [GitHub video and media handling](git-and-github/github-video-and-media-handling.md)
-- [Ubuntu WSL Essential Commands Cheat Sheet](git-and-github/ubuntu-wsl-git-cheat-sheet.md.md)
+- [Ubuntu WSL Essential Commands Cheat Sheet](git-and-github/ubuntu-wsl-git-cheat-sheet.md)
 - [Pushing Only a Single File Using git stash](git-and-github/selective-file-commit-with-stash.md)
 - [Rebase vs Merge Strategy](git-and-github/rebase-vs-merge-strategy.md)
 - [GitHub Team Workflow Guide](git-and-github/github-team-workflow-guide.md)
@@ -38,8 +37,28 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 ### Linux
 - [Linux Practical commands I used](linux/linux-operations-and-debugging.md)
 
+### Python
+
+* [dict.get() and unpacking patterns](python/dict-get-and-unpacking.md)
+* [enumerate basics](python/enumerate-basics.md)
+* [next() fundamentals](python/next-bascis.md)
+* [Sorting dictionary by value and Top-N extraction](python/sorting-dict-by-value-and-top-n.md)
+
+### Statistics
+
+* [Mann-Whitney U Test practical notes](statistics/mann-whiteney-u-test.md)
+
 ---
 
 ## 💡 About
 
-Each entry represents a real problem solved, concept learned, or pattern discovered during my bootcamp projects and self-study.
+Each entry documents a real issue resolved, concept clarified, or system behavior understood through hands-on experience.
+
+## 🧠 Patterns I’m Learning Repeatedly
+
+- Idempotent pipeline design
+- Separation of orchestration vs transformation (Airflow vs dbt)
+- Observability via Slack alerts
+- Debugging containerized environments
+- Streaming window mechanics
+- Git workflow discipline (rebase vs merge decisions)
