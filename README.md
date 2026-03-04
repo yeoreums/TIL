@@ -1,7 +1,7 @@
 # TIL (Today I Learned)
 
 🧠 Latest TIL
-→ [Airflow Import Error Slack Alert](airflow/airflow-import-error-slack-alert.md)
+→ [Batch Candle To Silver Snowflake](airflow/batch-candle-to-silver-snowflake.md)
 
 📚 Total TIL entries: 22
 📅 Last updated: 2026-03-04
