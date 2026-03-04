@@ -39,10 +39,10 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 
 ### Python
 
-* [dict.get() and unpacking patterns](python/dict-get-and-unpacking.md)
-* [enumerate basics](python/enumerate-basics.md)
-* [next() fundamentals](python/next-bascis.md)
-* [Sorting dictionary by value and Top-N extraction](python/sorting-dict-by-value-and-top-n.md)
+- [dict.get() and unpacking patterns](python/dict-get-and-unpacking.md)
+- [enumerate basics](python/enumerate-basics.md)
+- [next() fundamentals](python/next-bascis.md)
+- [Sorting dictionary by value and Top-N extraction](python/sorting-dict-by-value-and-top-n.md)
 
 ### Statistics
 
