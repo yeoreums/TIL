@@ -70,3 +70,4 @@ The effect is **statistically significant**, not random.
 A higher average means nothing without statistical validation.
 
 **Always test significance before trusting a signal.**
+ 
