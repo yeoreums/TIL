@@ -23,9 +23,24 @@ for folder in folders:
             files.append(path)
             count += 1
 
-# find most recently modified file
+# find latest committed TIL file using git history
 latest_file = subprocess.check_output(
-    ["git", "log", "-1", "--name-only", "--pretty=format:", "--", "*.md"]
+    [
+        "git",
+        "log",
+        "-1",
+        "--name-only",
+        "--pretty=format:",
+        "--",
+        "airflow/*.md",
+        "data-engineering/*.md",
+        "dbt/*.md",
+        "dev-ops-and-system/*.md",
+        "git-and-github/*.md",
+        "linux/*.md",
+        "python/*.md",
+        "statistics/*.md",
+    ]
 ).decode().strip().split("\n")[0]
 
 latest_name = os.path.basename(latest_file)
