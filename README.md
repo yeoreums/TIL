@@ -1,10 +1,10 @@
 # TIL (Today I Learned)
 
 🧠 Latest TIL
-→ loading...
+→ enumerate basics
 
-📚 Total TIL entries: 0
-📅 Last updated: YYYY-MM-DD
+📚 Total TIL entries: 22
+📅 Last updated: 2026-03-04
 
 ---
 
