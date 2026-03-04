@@ -1,5 +1,6 @@
 import os
 from datetime import date
+import subprocess
 
 folders = [
     "airflow",
@@ -23,10 +24,12 @@ for folder in folders:
             count += 1
 
 # find most recently modified file
-latest_file = max(files, key=os.path.getmtime)
+latest_file = subprocess.check_output(
+    ["git", "log", "-1", "--name-only", "--pretty=format:", "--", "*.md"]
+).decode().strip().split("\n")[0]
 
 latest_name = os.path.basename(latest_file)
-latest_name = latest_name.replace(".md", "").replace("-", " ")
+latest_name = latest_name.replace(".md", "").replace("-", " ").title()
 
 today = date.today().isoformat()
 
@@ -44,7 +47,7 @@ for line in lines:
         line = f"📅 Last updated: {today}\n"
 
     if line.startswith("→"):
-        line = f"→ {latest_name}\n"
+        line = f"→ [{latest_name}]({latest_file})\n"
 
     new_lines.append(line)
 
