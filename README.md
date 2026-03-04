@@ -1,7 +1,7 @@
 # TIL (Today I Learned)
 
 🧠 Latest TIL
-→ enumerate basics
+→ [Readme](README.md)
 
 📚 Total TIL entries: 22
 📅 Last updated: 2026-03-04
