@@ -46,7 +46,7 @@ This repo helps me track my progress, organize solutions to debugging issues, an
 
 ### Statistics
 
-* [Mann-Whitney U Test practical notes](statistics/mann-whiteney-u-test.md)
+- [Mann-Whitney U Test practical notes](statistics/mann-whiteney-u-test.md)
 
 ---
 
