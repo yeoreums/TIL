@@ -1,7 +1,7 @@
 # TIL (Today I Learned)
 
 🧠 Latest TIL
-→ [Readme](README.md)
+→ [Airflow Import Error Slack Alert](airflow/airflow-import-error-slack-alert.md)
 
 📚 Total TIL entries: 22
 📅 Last updated: 2026-03-04
