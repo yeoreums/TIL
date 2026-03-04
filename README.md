@@ -1,7 +1,7 @@
 # TIL (Today I Learned)
 
 🧠 Latest TIL
-→ [Batch Candle To Silver Snowflake](airflow/batch-candle-to-silver-snowflake.md)
+→ [Mann Whitney U Test](statistics/mann-whitney-u-test.md)
 
 📚 Total TIL entries: 22
 📅 Last updated: 2026-03-04
